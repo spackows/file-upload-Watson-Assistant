@@ -1,0 +1,68 @@
+
+body
+{
+margin: 0px;
+padding: 0px;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+p
+{
+margin: 5px;
+padding: 0px;
+}
+
+#file_upload_div
+{
+margin: 0px;
+padding: 20px;
+position: absolute;
+top: 50px;
+left: 50px;
+width: 260px;
+height: 65px;
+background: white;
+border: 1px dashed grey;
+border-radius: 8px;
+text-align: center;
+}
+
+#upload_browse_button
+{
+margin: 0px 0px 0px 10px;
+display: inline-block;
+padding: 2px 8px 2px 8px;
+cursor: pointer;
+border: 1px solid midnightblue;
+background: midnightblue;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+#upload_browse_button
+{
+transform: translateY(2px);
+}
+
+#file_upload_input
+{
+margin: 0px;
+padding: 0px;
+position: absolute;
+top: 54px;
+left: 54px;
+width: 292px;
+height: 97px;
+cursor: pointer;
+border: 1px solid purple;
+opacity: 0;
+}
+
+
+

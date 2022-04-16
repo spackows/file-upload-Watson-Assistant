@@ -1,0 +1,20 @@
+{
+  "name": "watson-assistant-file-upload",
+  "main": "server.js",
+  "description": "A web app for providing an interface for uploading a file with a Watson Assistant chatbot",
+  "version": "0.1.1",
+  "private": true,
+  "engines": {
+    "node": "12.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "ibm-cos-sdk": "^1.11.0",
+    "multer": "^1.4.4"
+  },
+  "author": "Sarah Packowski"
+}

@@ -1,0 +1,4 @@
+---
+applications:
+ - name: watson-assistant-file-upload
+   memory: 256M

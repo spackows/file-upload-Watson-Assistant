@@ -1,0 +1,24 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="javascript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body onload="setUpChatbot();">
+<input id="wa_integration_id"      style="display: none;" value="<%= wa_integration_id %>" >
+<input id="wa_region"              style="display: none;" value="<%= wa_region %>" >
+<input id="wa_service_instance_id" style="display: none;" value="<%= wa_service_instance_id %>" >
+
+<div id="file_upload_div">
+<p>Drag file here</p>
+<p>or <button id="upload_browse_button">Browse</button></p>
+</div>
+<form id="upload_form">
+<input id="file_upload_input" name="uploaded_file" type="file" multiple="false" onchange="uploadFile();">
+</form>
+
+</html>
+
+
